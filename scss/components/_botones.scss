@@ -1,0 +1,39 @@
+%btn{
+    border-radius: 12px;
+    padding: .6rem 1.125rem;
+    text-transform: uppercase;
+    letter-spacing: .05rem;
+    font-size: .9rem;
+}
+.btn-azul{
+    @extend %btn;
+    background-color: $azul;
+    color: $blanco;
+    i{
+        color: $amarillo;
+        margin-right: .4rem;
+    }
+    &:hover{
+        background-color: $azul-oscuro;
+        color: $blanco;
+        i{
+            color: $amarillo;
+        }
+    }
+}
+.btn-amarillo{
+    @extend %btn;
+    background-color: $amarillo;
+    color: $azul-oscuro;
+    i{
+        color: $azul-oscuro;
+        margin-right: .5rem;
+    }
+    &:hover{
+        background-color: $azul-oscuro;
+        color: $amarillo;
+        i{
+            color: $amarillo;
+        }
+    }
+}

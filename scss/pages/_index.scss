@@ -1,0 +1,63 @@
+#slide{
+    .carousel-inner{
+        margin-top: 121px;
+        .carousel-item{
+            background-position: top center;
+            background-size: cover;
+            .cuadro-azul{
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 60%;
+                min-width: 160px;
+                height: 100%;
+                background-color: $azul;
+            }
+            .titulo-slide{
+                font-size: 3rem;
+                line-height: 3.5rem;
+                font-weight: 800;
+                color: $azul;
+                margin-bottom: 1.5rem;
+                .marker{
+                    background-color: $azul;
+                    padding: 0 .5rem;
+                    color: $amarillo;
+                    line-height: 4rem;
+                    text-transform: uppercase;
+                }
+            }
+            .subtitulo-slide{
+                color: $azul-oscuro;
+                font-size: 2rem;
+                text-transform: uppercase;
+                font-weight: 700;
+                line-height: 1.2;
+            }
+            .precio-slide{
+                background-color: $amarillo;
+                padding: .2rem .6rem;
+                color: $azul-oscuro;
+                p{
+                    margin: 0;
+                    font-size: 1.3rem;
+                }
+            }
+        }
+    }
+    .carousel-indicators{
+        button{
+            width: 1rem!important;
+            height: 1rem!important;
+            border-radius: 50%!important;
+            background-color: $blanco;
+            &.active{
+                background-color: $azul;
+            }
+        }
+    }
+    .carousel-control-prev,
+    .carousel-control-next{
+        width: 7%;
+    }
+}
