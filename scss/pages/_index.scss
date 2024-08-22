@@ -46,6 +46,7 @@
         }
     }
     .carousel-indicators{
+        bottom: 2rem;
         button{
             width: 1rem!important;
             height: 1rem!important;
@@ -59,5 +60,40 @@
     .carousel-control-prev,
     .carousel-control-next{
         width: 7%;
+    }
+}
+#nosotros{
+    img{
+        margin-top: -2rem;
+        position: relative
+    }
+}
+.producto{
+    .precios{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: flex-start;
+        .precio{
+            display: inline;
+            margin: 0;
+            text-transform: uppercase;
+            font-weight: 600;
+            span{
+                font-size: 24px;
+                font-weight: 700;
+                display: block;
+            }
+            &.oferta{
+                color: $azul;
+            }
+            &.original{
+                color: #888;
+                span{
+                    text-decoration: line-through;
+                }
+            }
+        }
     }
 }

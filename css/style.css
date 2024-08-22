@@ -2,6 +2,58 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 body {
   font-family: "Poppins", sans-serif;
+  color: #666;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 700;
+}
+
+p {
+  font-weight: 300;
+}
+
+.titulo {
+  font-size: 2.2rem;
+  color: #0F0F6F;
+  font-weight: 700;
+}
+.titulo .top-titulo {
+  color: #FFC300;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 300;
+  display: block;
+}
+
+.titulo-small {
+  font-size: 20px;
+  color: #0F0F6F;
+  font-weight: 700;
+}
+
+.linea-amarilla {
+  height: 1px;
+  width: 100%;
+  background-color: #FFC300;
+}
+
+.separador {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.separador::before, .separador::after {
+  content: "";
+  display: inline-block;
+  height: 1px;
+  width: 100%;
+  background-color: #e3e3e3;
+}
+.separador img {
+  margin-inline: 0.5rem;
 }
 
 .btn-amarillo, .btn-azul {
@@ -152,6 +204,9 @@ header #navbar .nav-item.dropdown .dropdown-menu .dropdown-item:hover {
   margin: 0;
   font-size: 1.3rem;
 }
+#slide .carousel-indicators {
+  bottom: 2rem;
+}
 #slide .carousel-indicators button {
   width: 1rem !important;
   height: 1rem !important;
@@ -164,4 +219,37 @@ header #navbar .nav-item.dropdown .dropdown-menu .dropdown-item:hover {
 #slide .carousel-control-prev,
 #slide .carousel-control-next {
   width: 7%;
+}
+
+#nosotros img {
+  margin-top: -2rem;
+  position: relative;
+}
+
+.producto .precios {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.producto .precios .precio {
+  display: inline;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.producto .precios .precio span {
+  font-size: 24px;
+  font-weight: 700;
+  display: block;
+}
+.producto .precios .precio.oferta {
+  color: #141494;
+}
+.producto .precios .precio.original {
+  color: #888;
+}
+.producto .precios .precio.original span {
+  text-decoration: line-through;
 }
