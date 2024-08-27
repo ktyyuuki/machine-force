@@ -12,13 +12,13 @@ p{
     font-size: 2.2rem;
     color: $azul-oscuro;
     font-weight: 700;
-    .top-titulo{
-        color: $amarillo;
-        text-transform: uppercase;
-        font-size: 1rem;
-        font-weight: 300;
-        display: block;
-    }
+}
+.top-titulo{
+    color: $amarillo;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 300;
+    display: block;
 }
 .titulo-small{
     font-size: 20px;
@@ -46,5 +46,33 @@ p{
     }
     img{
         margin-inline: .5rem;
+    }
+}
+.whatsapp {
+    position: fixed;
+    z-index: 9999!important;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: #25d366;
+    animation: 1s infinite alternate shimmy;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    i {
+        font-size: 42px;
+        color: #fff;
+    }
+}
+@keyframes shimmy{
+    0%{
+        transform:translate(0,0)
+    }
+    100%{
+        transform:translate(-5px, -5px)
     }
 }

@@ -1,0 +1,29 @@
+footer{
+    background-color: $negro;
+    padding-block: 3rem 1rem;
+    .rrss{
+        width: 100%;
+        justify-content: center;
+        display: inline-flex;
+        flex-wrap: wrap;
+        margin: 1rem auto 2rem;
+        a{
+            margin-inline: .5rem;
+            color: $blanco;
+        }
+    }
+    .info-foot{
+        border-top: 1px solid #e3e3e3;
+        text-align: center;
+        padding-top: 1rem;
+        p{
+            font-size: .9rem;
+            color: $blanco;
+            font-weight: 300;
+            a{
+                text-decoration: none;
+                color: $blanco;
+            }
+        }
+    }
+}
