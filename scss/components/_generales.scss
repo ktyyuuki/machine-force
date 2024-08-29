@@ -9,9 +9,14 @@ p{
     font-weight: 300;
 }
 .titulo{
-    font-size: 2.2rem;
     color: $azul-oscuro;
     font-weight: 700;
+    @include mobile{
+        font-size: 2rem;
+    }
+    @include tablet{
+        font-size: 2.2rem;
+    }
 }
 .top-titulo{
     color: $amarillo;

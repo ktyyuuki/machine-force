@@ -13,7 +13,7 @@
         color: $amarillo;
         margin-right: .4rem;
     }
-    &:hover{
+    &:is(:hover,:focus,.active){
         background-color: $azul-oscuro;
         color: $blanco;
         i{
