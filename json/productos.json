@@ -1,0 +1,22 @@
+[
+    {
+        "categoria": "Productos aislación",
+        "menuId": "aislacion",
+        "nombre": "Máquina Proyección Espuma Poliuretano",
+        "rutaImgs": "img/productos/poliuretano",
+        "imgppal": "1.png",
+        "imgs": ["2.png", "3.png", "4.png", "5.png"],
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus.",
+        "precio": "7.000.000"
+    },
+    {
+        "categoria": "Productos Revestimiento",
+        "menuId": "revestimiento",
+        "nombre": "Máquina Pulverizadora de mortero",
+        "rutaImgs": "img/productos/revestimiento",
+        "imgppal": "1.png",
+        
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus.",
+        "precio": "8.000.000"
+    }
+]
