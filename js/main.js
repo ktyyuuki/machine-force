@@ -76,25 +76,27 @@ async function renderProductos(){
             <div class="col-md-6 col-lg-7">
                 <p class="fw-semibold text-uppercase mb-3">Descripción:</p>
                 <p>${item.descripcion}</p>`
-                if (item.precioOferta){
-                    template += `<div class="precios mt-4">
-                        <p class="precio oferta">
-                            Precio oferta:
-                            <span>$${item.precio}</span>
-                        </p>
-                        <div class="vr mx-4"></div>
-                        <p class="precio original">
-                            Precio normal:
-                            <span>$7.990.000</span>
-                        </p>
-                    </div>`
-                } else {
-                    template += `<div class="precios mt-4">
-                        <p class="precio oferta">
-                            Precio:
-                            <span>$${item.precio}</span>
-                        </p>
-                    </div>`
+                if(item.precio){
+                    if (item.precioOferta){
+                        template += `<div class="precios mt-4">
+                            <p class="precio oferta">
+                                Precio oferta:
+                                <span>$${item.precio}</span>
+                            </p>
+                            <div class="vr mx-4"></div>
+                            <p class="precio original">
+                                Precio normal:
+                                <span>$7.990.000</span>
+                            </p>
+                        </div>`
+                    } else {
+                        template += `<div class="precios mt-4">
+                            <p class="precio oferta">
+                                Precio:
+                                <span>$${item.precio}</span>
+                            </p>
+                        </div>`
+                    }
                 }
                 
                 template += `<a href="#contacto" class="btn btn-amarillo mt-3"><i class="bi bi-envelope"></i>Cotizar producto</a>
