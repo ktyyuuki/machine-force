@@ -13,6 +13,10 @@ p {
   font-weight: 300;
 }
 
+li {
+  color: #666;
+}
+
 .titulo {
   color: #0F0F6F;
   font-weight: 700;

@@ -6,8 +6,32 @@
         "rutaImgs": "img/productos/poliuretano",
         "imgppal": "1.png",
         "imgs": ["2.png", "3.png", "4.png", "5.png"],
-        "descripcion": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus.",
-        "precio": "7.000.000"
+        "descripcion": "La Máquina de Proyección de Espuma de Poliuretano es un equipo especializado diseñado para aplicar espuma de poliuretano y poliurea, con aplicaciones en impermeabilización y aislamiento. Cuenta con una pistola rociadora multifuncional para inyección y proyección, con un sistema avanzado de autolimpieza. El equipo incluye una manguera de calefacción con control inteligente de temperatura, asegurando una distribución uniforme del calor. También dispone de un sistema de protección contra fugas eléctricas y piezas de alta durabilidad para facilitar su mantenimiento y operación eficiente",
+        "precioOferta": "",
+        "precio": "7.990.000",
+        "fichaTecnica": [
+            {"propiedad": "Nombre", "descripcion": "MAQUINA NEUMATICA PARA PULVERIZAR ESPUMA DE POLIURETANO"},
+            {"propiedad": "Modelo", "descripcion": "CNMC-E3"},
+            {"propiedad": "Fuente de alimentación", "descripcion": "110V/220V/380V"},
+            {"propiedad": "Potencia de calentamiento", "descripcion": "7.5 KW"},
+            {"propiedad": "Modo de accionamiento", "descripcion": "Neumático"},
+            {"propiedad": "Producción de materia prima", "descripcion": "2-12 kg/min"},
+            {"propiedad": "Presión máxima de trabajo", "descripcion": "11 Mpa"},
+            {"propiedad": "Proporción de salida de productos químicos A y B", "descripcion": "1:1"},
+            {"propiedad": "Soporte máximo de manguera", "descripcion": "90 metros"},
+            {"propiedad": "Tamaño de la máquina", "descripcion": "750 x 540 x 1120 mm"},
+            {"propiedad": "Peso de la máquina", "descripcion": "139 kg"}
+        ],
+        "caracteristicas": [
+            "Protección eléctrica: Incluye un sistema de seguridad contra fugas.", "Pistola rociadora: Multifuncional (inyección y proyección de poliuretano y poliurea) con autolimpieza por aire.", "Salida ajustable: Mínima de 2 kg/min y máxima de 12 kg/min.", "Bomba neumática: Mantiene una proporción estable de materias primas.", "Manguera calefactada: Con control inteligente de temperatura y protección de nailon para mayor durabilidad"
+        ],
+        "beneficios": [
+            {"titulo": "Seguridad optimizada:", "descripcion": "Equipado con un sistema de protección contra fugas eléctricas, lo que reduce el riesgo de accidentes y garantiza un entorno de trabajo seguro."},
+            {"titulo": "Mayor eficiencia:", "descripcion": "La pistola cuenta con un sistema de autolimpieza por aire, lo que minimiza el tiempo de mantenimiento y permite un uso continuo sin interrupciones."},
+            {"titulo": "Aplicaciones versátiles:", "descripcion": "Permite tanto la inyección como la proyección de poliuretano y poliurea, ofreciendo soluciones para aislamiento térmico e impermeabilización en diversas superficies."},
+            {"titulo": "Durabilidad superior:", "descripcion": "La manguera calefactada está protegida por una cubierta de nailon y diseñada con materiales resistentes que aseguran una larga vida útil del equipo."},
+            {"titulo": "Fácil de operar:", "descripcion": "Gracias a su diseño compacto y ligero, la máquina es fácil de maniobrar, lo que facilita su uso en proyectos industriales de gran envergadura"}
+        ]
     },
     {
         "categoria": "Productos Revestimiento",
@@ -15,8 +39,36 @@
         "nombre": "Máquina Pulverizadora de mortero",
         "rutaImgs": "img/productos/revestimiento",
         "imgppal": "1.png",
-        
-        "descripcion": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus.",
-        "precio": "8.000.000"
+
+        "descripcion": "La Máquina Pulverizadora de Mortero es un equipo diseñado para la proyección eficiente de mortero y otros revestimientos. Es ideal para trabajos de pulverización en interiores y exteriores, brindando un acabado uniforme, duradero y de alta calidad. Su diseño compacto y fácil manejo permite su uso en diversas aplicaciones de construcción.",
+        "precioOferta": "",
+        "precio": "8.000.000",
+        "fichaTecnica": [
+            {"propiedad": "Nombre", "descripcion": "Máquina Pulverizadora de Mortero"},
+            {"propiedad":"Fuente de alimentación", "descripcion": "Motor diésel"},
+            {"propiedad":"Potencia", "descripcion": "12 HP"},
+            {"propiedad":"Capacidad", "descripcion": "5 m³/hora"},
+            {"propiedad":"Tamaño del agregado", "descripcion":"<4 mm"},
+            {"propiedad":"Distancia vertical", "descripcion":"15 metros"},
+            {"propiedad":"Distancia horizontal", "descripcion":"35 metros"},
+            {"propiedad":"Tamaño de la máquina", "descripcion":"1850 x 870 x 1130 mm"},
+            {"propiedad":"Peso de la máquina", "descripcion":"350 kg"}
+        ],
+        "caracteristicas": [
+            "Ajusta el tamaño del flujo para un efecto de pulverización óptimo.",
+            "Caja de control con interruptor remoto de pulverización",
+            "Pistola de pulverización con conexión de tubo de alimentación giratorio, fácil de operar",
+            "Construcción de alta eficiencia y buena calidad",
+            "Tamaño compacto para fácil manejo en el sitio, bajo costo y mantenimiento simple",
+            "Rápida y eficiente, con capacidad para cubrir 150 m²/hora con un grosor de 2 cm",
+            "Relación de material (cemento): 0.7: 3 mortero"
+        ],
+        "beneficios": [
+            {"titulo": "Ahorro de tiempo y costos:", "descripcion": "Aplicación rápida y eficiente, con menor mano de obra"},
+            {"titulo": "Durabilidad:", "descripcion": "El acabado es más resistente al desgaste y a las condiciones climáticas"},
+            {"titulo": "Adaptabilidad:", "descripcion": "Adecuada para una amplia gama de superficies, como paredes, techos y suelos"},
+            {"titulo": "Fácil operación:", "descripcion": "Pistola de pulverización con boquilla opcional y manejo simple"},
+            {"titulo": "Uniformidad del acabado:", "descripcion": "Proporciona una pulverización uniforme con alta adhesión"}
+        ]
     }
 ]

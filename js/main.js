@@ -11,6 +11,10 @@ class Producto {
         this.imgs = objeto.imgs;
         this.descripcion = objeto.descripcion;
         this.precio = objeto.precio;
+        this.precioOferta = objeto.precioOferta;
+        this.fichaTecnica = objeto.fichaTecnica;
+        this.caracteristicas = objeto.caracteristicas;
+        this.beneficios = objeto.beneficios;
         productos.push(this);
     }
     generarId(){
@@ -71,28 +75,35 @@ async function renderProductos(){
 
             <div class="col-md-6 col-lg-7">
                 <p class="fw-semibold text-uppercase mb-3">Descripción:</p>
-                <p>${item.descripcion}</p>
-                <div class="precios mt-4">
-                    <p class="precio oferta">
-                        Precio oferta:
-                        <span>$${item.precio}</span>
-                    </p>
-                    <div class="vr mx-4"></div>
-                    <p class="precio original">
-                        Precio normal:
-                        <span>$7.990.000</span>
-                    </p>
-                </div>
-                <a href="#contacto" class="btn btn-amarillo mt-3"><i class="bi bi-envelope"></i>Cotizar producto</a>
+                <p>${item.descripcion}</p>`
+                if (item.precioOferta){
+                    template += `<div class="precios mt-4">
+                        <p class="precio oferta">
+                            Precio oferta:
+                            <span>$${item.precio}</span>
+                        </p>
+                        <div class="vr mx-4"></div>
+                        <p class="precio original">
+                            Precio normal:
+                            <span>$7.990.000</span>
+                        </p>
+                    </div>`
+                } else {
+                    template += `<div class="precios mt-4">
+                        <p class="precio oferta">
+                            Precio:
+                            <span>$${item.precio}</span>
+                        </p>
+                    </div>`
+                }
+                
+                template += `<a href="#contacto" class="btn btn-amarillo mt-3"><i class="bi bi-envelope"></i>Cotizar producto</a>
                 <hr>
 
                 <!-- Nav tabs -->
                 <ul class="nav nav-pills" id="producto${item.id}" role="tablist">
                     <li class="nav-item" role="presentation">
                         <button class="nav-link active" id="ficha-tab${item.id}" data-bs-toggle="tab" data-bs-target="#ficha${item.id}" type="button" role="tab" aria-controls="ficha${item.id}" aria-selected="true">Información técnica</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="info-tab${item.id}" data-bs-toggle="tab" data-bs-target="#info${item.id}" type="button" role="tab" aria-controls="info${item.id}" aria-selected="false">Información adicional</button>
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="nav-link" id="videos-tab${item.id}" data-bs-toggle="tab" data-bs-target="#videos${item.id}" type="button" role="tab" aria-controls="videos${item.id}" aria-selected="false">Videos</button>
@@ -114,16 +125,20 @@ async function renderProductos(){
                                     <div id="fichaTecnica${item.id}" class="accordion-collapse collapse show" data-bs-parent="#datosTecnicos${item.id}">
                                         <div class="accordion-body">
                                             <table class="table table-striped mb-0">
-                                                <tbody>
-                                                    <tr>
-                                                        <th>Nombre</th>
-                                                        <td>Lorem ipsum dolor sit amet.</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <th>Modelo</th>
-                                                        <td>XX-XXX</td>
-                                                    </tr>
-                                                </tbody>
+                                                <tbody>`                            
+                                                if (item.fichaTecnica) {
+                                                    item.fichaTecnica.forEach(ficha => {
+                                                        template += `<tr>
+                                                            <th valign="middle" class="text-secondary">${ficha.propiedad}</th>
+                                                            <td>${ficha.descripcion}</td>
+                                                        </tr>`
+                                                    });
+                                                } else {
+                                                    template += `<tr>
+                                                        <th colspan="2">No hay información técnica disponible.</th>
+                                                    </tr>`;
+                                                }    
+                                                template += `</tbody>
                                             </table>
                                         </div>
                                     </div>
@@ -135,26 +150,42 @@ async function renderProductos(){
                                         </button>
                                     </div>
                                     <div id="caracteristicas${item.id}" class="accordion-collapse collapse" data-bs-parent="#datosTecnicos${item.id}">
-                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                        <div class="accordion-body">`
+                                            if(item.caracteristicas){
+                                            template += `<ul>`
+                                                for (const caracteristica of item.caracteristicas) {
+                                                    template += `<li>${caracteristica}</li>`
+                                                }
+                                            template += `</ul>`
+                                            } else {
+                                                template += `<p class="my-2 fw-bold">No hay características cargadas</p>`
+                                            }
+                                        template += `</div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
                                     <div class="accordion-header">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#otrainfo${item.id}" aria-expanded="false" aria-controls="otrainfo${item.id}">
-                                            Información
+                                            Beneficios
                                         </button>
                                     </div>
                                     <div id="otrainfo${item.id}" class="accordion-collapse collapse" data-bs-parent="#datosTecnicos${item.id}">
-                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                        <div class="accordion-body">
+                                            <ul class="list-unstyled">`
+                                            if(item.beneficios){
+                                                item.beneficios.forEach(beneficio => {
+                                                    template += `<li class="mb-3"><b>${beneficio.titulo}</b> ${beneficio.descripcion}</li>`
+                                                });
+                                            }
+                                            template += `</ul>
+                                        </div>
+                                            
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- Info -->
-                    <div class="tab-pane" id="info${item.id}" role="tabpanel" aria-labelledby="info-tab${item.id}" tabindex="0">
 
-                    </div>
                     <!-- Videos -->
                     <div class="tab-pane" id="videos${item.id}" role="tabpanel" aria-labelledby="videos-tab${item.id}" tabindex="0">
 
@@ -187,16 +218,3 @@ async function renderProductos(){
 }
 
 renderProductos();
-
-
-
-
-
-
-
-
-
-
-
-
-
