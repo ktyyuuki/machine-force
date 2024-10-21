@@ -34,6 +34,40 @@
         ]
     },
     {
+        "categoria": "Productos aislación",
+        "menuId": "aislacion",
+        "nombre": "Máquina para proyección de espuma de poliuretano y poliurea",
+        "rutaImgs": "img/productos/poliuretano",
+        "imgppal": "1.png",
+
+        "descripcion": "Este equipo es apto para la formación de espuma de poliuretano y también para la proyección de poliurea",
+        "precioOferta": "",
+        "precio": "",
+        "fichaTecnica": [
+            {"propiedad": "Modelo", "descripcion": "WinterboyA25"},
+            {"propiedad":"Fuente de energía", "descripcion": "220V/380V"},
+            {"propiedad":"Potencia calefactora", "descripcion": "14 KW"},
+            {"propiedad":"Modo conducido", "descripcion": "pneumatic"},
+            {"propiedad":"Salida bruta", "descripcion":"2-12 kg/min"},
+            {"propiedad":"Máxima presión de trabajo", "descripcion":"25 Mpa"},
+            {"propiedad":"Químicos A y B ratio de salida", "descripcion":"1:1"},
+            {"propiedad":"Máximo soporte manguera", "descripcion":"120 metros"},
+            {"propiedad":"Medidas de la maquina", "descripcion":"750x540x1120 mm"},
+            {"propiedad":"Peso de la maquina", "descripcion":"150 kg"}
+        ]
+    },
+    {
+        "categoria": "Productos aislación",
+        "menuId": "aislacion",
+        "nombre": "Manguera de calefacción equipos poliuretano y poliurea ",
+        "rutaImgs": "img/productos/poliuretano",
+        "imgppal": "1.png",
+
+        "descripcion": "manguera de 15 metros compatible con modelos de poliuretano y poliurea con fácil conexión, seguras y de alta calidad.",
+        "precioOferta": "",
+        "precio": ""
+    },
+    {
         "categoria": "Productos Revestimiento",
         "menuId": "revestimiento",
         "nombre": "Máquina Pulverizadora de mortero",
@@ -42,7 +76,7 @@
 
         "descripcion": "La Máquina Pulverizadora de Mortero es un equipo diseñado para la proyección eficiente de mortero y otros revestimientos. Es ideal para trabajos de pulverización en interiores y exteriores, brindando un acabado uniforme, duradero y de alta calidad. Su diseño compacto y fácil manejo permite su uso en diversas aplicaciones de construcción.",
         "precioOferta": "",
-        "precio": "8.000.000",
+        "precio": "",
         "fichaTecnica": [
             {"propiedad": "Nombre", "descripcion": "Máquina Pulverizadora de Mortero"},
             {"propiedad":"Fuente de alimentación", "descripcion": "Motor diésel"},
@@ -70,5 +104,68 @@
             {"titulo": "Fácil operación:", "descripcion": "Pistola de pulverización con boquilla opcional y manejo simple"},
             {"titulo": "Uniformidad del acabado:", "descripcion": "Proporciona una pulverización uniforme con alta adhesión"}
         ]
+    },
+    {
+        "categoria": "Herramientas manuales revestimientos",
+        "menuId": "revestimiento",
+        "nombre": "Maquina alisadora de revestimientos ",
+        "rutaImgs": "img/productos/revestimiento",
+        "imgppal": "1.png",
+
+        "descripcion": "Maquina pulidora eléctrica multifunción, una herramienta que beneficia los procesos de alisado en superficies de una obra, aumenta el rendimiento mejora acabados y disminuye el esfuerzo en el proceso.",
+        "precioOferta": "",
+        "precio": "",
+        "fichaTecnica": [
+            {"propiedad": "Nombre", "descripcion": "Maquina alisadora de revestimientos"},
+            {"propiedad":"Tipo", "descripcion": "Herramienta de mano"},
+            {"propiedad":"Voltaje nominal", "descripcion": "230V-110V"},
+            {"propiedad":"Frecuencia normal", "descripcion": "50-60 HZ"},
+            {"propiedad":"Potencia nominal", "descripcion":"900 W"},
+            {"propiedad":"Tamaño de la almohadilla", "descripcion":"370 mm"},
+            {"propiedad":"Medidas", "descripcion":"45x40x43 cm"},
+            {"propiedad":"Peso", "descripcion":"5-8 kg"},
+            {"propiedad":"Accesorios", "descripcion":"almohadilla de plástico, papeles de lija, almohadilla de esponja, almohadilla alisadora, par de cepillos de carbón, dos destornilladores duales"}
+        ]
+    },
+    {
+        "categoria": "Herramientas manuales encintado planchas",
+        "menuId": "herramientas",
+        "nombre": "Caja plana de enyesado",
+        "rutaImgs": "img/productos/revestimiento",
+        "imgppal": "1.png",
+
+        "descripcion": "Herramienta para maestros en el encintado de uniones en planchas de yeso cartón, de fácil manejo, uso eficiente en muros y cielos mejorando rendimiento a un menor esfuerzo",
+        "precioOferta": "",
+        "precio": "",
+        "fichaTecnica": [
+            {"propiedad": "Nombre", "descripcion": "Caja plana de enyesado"},
+            {"propiedad":"Tipo", "descripcion": "Herramienta de mano"},
+            {"propiedad":"Tamaño", "descripcion": "1060x245x210 mm"},
+            {"propiedad":"Material de cuchilla", "descripcion": "Acero inoxidable"},
+            {"propiedad":"Altura mango", "descripcion":"980-1800 mm"},
+            {"propiedad":"Peso", "descripcion":"5 kg"}
+        ]
+    },
+    {
+        "categoria": "Herramientas manuales encintado planchas",
+        "menuId": "hormigon",
+        "nombre": "Molde de estampado en hormigón",
+        "rutaImgs": "img/productos/revestimiento",
+        "imgppal": "1.png",
+
+        "descripcion": "El molde de estampado de hormigón es el proceso de prensar impresiones decorativas o naturales en hormigón húmedo utilizando sellos de goma. Añade un toque único a tu entrada, piscina, patio, pasarelas o paredes. El hormigón estampado es una opción más económica y de alta calidad, alta flexibilidad combinado con diversas técnicas de acabado permiten una variedad de diseños en cualquier superficie",
+        "precioOferta": "",
+        "precio": "",
+        "fichaTecnica": [
+            {"propiedad": "Modelo M1 (muro 1)", "descripcion": "Medidas: 560x300 mm / Peso: 3 kg/pc / Disponibles: 20 pc rígidas, 5 pc flexible / Sets: 5"},
+            {"propiedad":"Modelo S1 (suelo 1)", "descripcion":"Medidas: 800x800 mm / Peso: 4 kg/pc / Disponibles: 20 pc rígidas, 5 pc flexible / Sets: 5"},
+            {"propiedad":"Modelo S2 (suelo 2)", "descripcion":"Medidas: 590x590  mm / Peso: 4 kg/pc / Disponibles: 20 pc rígidas, 5 pc flexible / Sets: 5"},
+            {"propiedad":"Modelo S3 (suelo 3)", "descripcion":"Medidas: 740x430 mm /Peso: 4 kg/pc / Disponibles: 20 pc rígidas, 5 pc flexible / Sets: 5"},
+            {"propiedad":"Modelo Pisón", "descripcion":"Medidas: 25x25x130 cm / Peso: 3 kg/pc"}
+        ],
+        "caracteristicas": [
+            "Kit incluye 4 pc rigidas, 1 pc flexible y un pisón"
+        ]
     }
+    
 ]
