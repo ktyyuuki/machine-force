@@ -52,7 +52,7 @@ async function renderProductos(){
         <p class="top-titulo text-center mb-1">${item.categoria}</p>
         <h2 class="titulo text-center text-uppercase">${item.nombre}</h2>
         <div class="row producto mt-5 gx-lg-5">
-            <div class="col-md-6 col-lg-5 ${item.id % 2 == 0 ? "order-last" : ""}">
+            <div class="col-md-6 col-lg-5 ${item.id % 2 == 0 ? "order-md-last" : ""}">
                 <ul id="lightgallery${item.id}" class="lightgallery list-unstyled row mx-auto">
                     <li class="col-12" data-responsive="./${item.rutaImgs}/${item.imgppal}" data-src="./${item.rutaImgs}/${item.imgppal}">
                         <a class="col-12" href="">
