@@ -6,9 +6,9 @@
         "rutaImgs": "img/productos/poliuretano",
         "imgppal": "1.png",
         "imgs": ["2.png", "3.png", "4.png", "5.png"],
-        "descripcion": "La Máquina de Proyección de Espuma de Poliuretano es un equipo especializado diseñado para aplicar espuma de poliuretano y poliurea, con aplicaciones en impermeabilización y aislamiento. Cuenta con una pistola rociadora multifuncional para inyección y proyección, con un sistema avanzado de autolimpieza. El equipo incluye una manguera de calefacción con control inteligente de temperatura, asegurando una distribución uniforme del calor. También dispone de un sistema de protección contra fugas eléctricas y piezas de alta durabilidad para facilitar su mantenimiento y operación eficiente",
+        "descripcion": "La Máquina de Proyección de Espuma de Poliuretano es un equipo especializado diseñado para generar espuma de poliuretano, con aplicaciones en aislamiento térmico y acústico. Incluye una pistola rociadora multifuncional para inyección y proyección, con un sistema avanzado de autolimpieza; Manguera de calefacción con control inteligente de temperatura que asegura una distribución uniforme del calor, Con piezas de alta durabilidad para facilitar su mantenimiento y operación eficiente.",
         "precioOferta": "",
-        "precio": "7.990.000",
+        "precio": "7.290.000",
         "fichaTecnica": [
             {"propiedad": "Nombre", "descripcion": "MAQUINA NEUMATICA PARA PULVERIZAR ESPUMA DE POLIURETANO"},
             {"propiedad": "Modelo", "descripcion": "CNMC-E3"},
@@ -40,9 +40,9 @@
         "rutaImgs": "img/productos/maquina-pu-y-poliurea",
         "imgppal": "1.png",
         "imgs": ["2.png", "3.png", "4.png", "5.png"],
-        "descripcion": "Este equipo es apto para la formación de espuma de poliuretano y también para la proyección de poliurea",
+        "descripcion": "La Máquina de Proyección de Espuma de Poliuretano y Poliurea es un equipo especializado y capaz de implementar la proyección de espuma de poliuretano y también la aplicación de Poliurea en un mismo equipo, ampliando la variedad de usos y aplicaciones en que podemos utilizarla, aplicándola para aislamiento térmico, acústico y aislante  . Incluye una pistola rociadora multifuncional para inyección y proyección, con un sistema avanzado de autolimpieza; Manguera de calefacción con control inteligente de temperatura que asegura una distribución uniforme del calor, Con piezas de alta durabilidad para facilitar su mantenimiento y operación eficiente.",
         "precioOferta": "",
-        "precio": "",
+        "precio": "8.000.000",
         "fichaTecnica": [
             {"propiedad": "Modelo", "descripcion": "WinterboyA25"},
             {"propiedad":"Fuente de energía", "descripcion": "220V/380V"},
@@ -54,6 +54,16 @@
             {"propiedad":"Máximo soporte manguera", "descripcion":"120 metros"},
             {"propiedad":"Medidas de la maquina", "descripcion":"750x540x1120 mm"},
             {"propiedad":"Peso de la maquina", "descripcion":"150 kg"}
+        ],
+        "caracteristicas": [
+            "Protección eléctrica: Incluye un sistema de seguridad contra fugas.", "Pistola rociadora: Multifuncional (inyección y proyección de poliuretano y poliurea) con autolimpieza por aire.", "Salida ajustable: Mínima de 2 kg/min y máxima de 12 kg/min.", "Bomba neumática: Mantiene una proporción estable de materias primas", "Manguera calefactada: Con control inteligente de temperatura y protección de nailon para mayor durabilidad"
+        ],
+        "beneficios": [
+            {"titulo": "Seguridad optimizada:", "descripcion": "Equipado con un sistema de protección contra fugas eléctricas, lo que reduce el riesgo de accidentes y garantiza un entorno de trabajo seguro."},
+            {"titulo": "Mayor eficiencia:", "descripcion": "La pistola cuenta con un sistema de autolimpieza por aire, lo que minimiza el tiempo de mantenimiento y permite un uso continuo sin interrupciones."},
+            {"titulo": "Aplicaciones versátiles:", "descripcion": "Permite tanto la inyección como la proyección de poliuretano y poliurea, ofreciendo soluciones para aislamiento térmico e impermeabilización en diversas superficies."},
+            {"titulo": "Durabilidad superior:", "descripcion": "La manguera calefactada está protegida por una cubierta de nailon y diseñada con materiales resistentes que aseguran una larga vida útil del equipo."},
+            {"titulo": "Fácil de operar:", "descripcion": "Gracias a su diseño compacto y ligero, la máquina es fácil de maniobrar, lo que facilita su uso en proyectos industriales de gran envergadura"}
         ]
     },
     {
@@ -63,9 +73,9 @@
         "rutaImgs": "img/productos/poliuretano",
         "imgppal": "1.png",
 
-        "descripcion": "manguera de 15 metros compatible con modelos de poliuretano y poliurea con fácil conexión, seguras y de alta calidad.",
+        "descripcion": "Manguera especializada de 15 metros compatible con modelos de poliuretano y poliurea con fácil conexión, seguras y de alta calidad.",
         "precioOferta": "",
-        "precio": ""
+        "precio": "790.000"
     },
     {
         "categoria": "Productos Revestimiento",
@@ -74,9 +84,9 @@
         "rutaImgs": "img/productos/revestimiento",
         "imgppal": "1.jpg",
         "imgs": ["2.png"],
-        "descripcion": "La Máquina Pulverizadora de Mortero es un equipo diseñado para la proyección eficiente de mortero y otros revestimientos. Es ideal para trabajos de pulverización en interiores y exteriores, brindando un acabado uniforme, duradero y de alta calidad. Su diseño compacto y fácil manejo permite su uso en diversas aplicaciones de construcción.",
+        "descripcion": "La Máquina Pulverizadora de Mortero es un equipo diseñado para la proyección eficiente de mortero y otros revestimientos. Es ideal para trabajos de pulverización en interiores y exteriores, logrando alto rendimiento con un acabado uniforme, duradero y de alta calidad. Su diseño compacto y fácil manejo permite su uso en diversas aplicaciones de construcción.",
         "precioOferta": "",
-        "precio": "",
+        "precio": "3.995.000",
         "fichaTecnica": [
             {"propiedad": "Nombre", "descripcion": "Máquina Pulverizadora de Mortero"},
             {"propiedad":"Fuente de alimentación", "descripcion": "Motor diésel"},
@@ -108,13 +118,13 @@
     {
         "categoria": "Herramientas manuales revestimientos",
         "menuId": "revestimiento",
-        "nombre": "Maquina alisadora de revestimientos ",
+        "nombre": "Máquina Pulidora Multifuncional",
         "rutaImgs": "img/productos/pulidora",
         "imgppal": "1.png",
         "imgs":["2.png","3.png","4.png","5.png","6.png"],
-        "descripcion": "Maquina pulidora eléctrica multifunción, una herramienta que beneficia los procesos de alisado en superficies de una obra, aumenta el rendimiento mejora acabados y disminuye el esfuerzo en el proceso.",
+        "descripcion": "Maquina pulidora eléctrica multifunción, una herramienta que beneficia los procesos de mezcla y alisado en diversas superficies de una obra, aumenta el rendimiento, mejora acabados y disminuye el esfuerzo en el proceso.",
         "precioOferta": "",
-        "precio": "",
+        "precio": "125.000",
         "fichaTecnica": [
             {"propiedad": "Nombre", "descripcion": "Maquina alisadora de revestimientos"},
             {"propiedad":"Tipo", "descripcion": "Herramienta de mano"},
@@ -134,9 +144,9 @@
         "rutaImgs": "img/productos/caja-enyesado",
         "imgppal": "1.jpg",
         "imgs": ["2.jpg","3.jpg","4.jpg","5.jpg","6.jpg","7.jpg","8.jpg"],
-        "descripcion": "Herramienta para maestros en el encintado de uniones en planchas de yeso cartón, de fácil manejo, uso eficiente en muros y cielos mejorando rendimiento a un menor esfuerzo",
+        "descripcion": "La caja plana de enyesado es la herramienta más eficiente y con mejor rendimiento en el mercado, utilizada por maestros en el encintado de uniones en planchas de yeso cartón, de fácil manejo, uso eficiente en muros y cielos mejorando rendimiento a un menor esfuerzo.",
         "precioOferta": "",
-        "precio": "",
+        "precio": "165.000",
         "fichaTecnica": [
             {"propiedad": "Nombre", "descripcion": "Caja plana de enyesado"},
             {"propiedad":"Tipo", "descripcion": "Herramienta de mano"},
@@ -153,14 +163,14 @@
         "rutaImgs": "img/productos/moldes-hormigon",
         "imgppal": "1.png",
         "imgs":["2.png","3.png","4.png","5.png","6.png","7.png","8.png","9.png","10.png","11.png"],
-        "descripcion": "El molde de estampado de hormigón es el proceso de prensar impresiones decorativas o naturales en hormigón húmedo utilizando sellos de goma. Añade un toque único a tu entrada, piscina, patio, pasarelas o paredes. El hormigón estampado es una opción más económica y de alta calidad, alta flexibilidad combinado con diversas técnicas de acabado permiten una variedad de diseños en cualquier superficie",
+        "descripcion": "El molde de estampado de hormigón es el complemento que necesitas para añadir más valor a tus trabajos, el proceso de prensar impresiones decorativas o naturales en hormigón húmedo utilizando sellos de goma añade un toque único a tu entrada, piscina, patio, pasarelas o paredes. El hormigón estampado es una opción más económica y de alta calidad, alta flexibilidad combinado con diversas técnicas de acabado permiten una variedad de diseños en cualquier superficie.",
         "precioOferta": "",
         "precio": "",
         "fichaTecnica": [
-            {"propiedad": "Modelo M1 (muro 1)", "descripcion": "Medidas: 560x300 mm / Peso: 3 kg/pc / Disponibles: 20 pc rígidas, 5 pc flexible / Sets: 5"},
-            {"propiedad":"Modelo S1 (suelo 1)", "descripcion":"Medidas: 800x800 mm / Peso: 4 kg/pc / Disponibles: 20 pc rígidas, 5 pc flexible / Sets: 5"},
-            {"propiedad":"Modelo S2 (suelo 2)", "descripcion":"Medidas: 590x590  mm / Peso: 4 kg/pc / Disponibles: 20 pc rígidas, 5 pc flexible / Sets: 5"},
-            {"propiedad":"Modelo S3 (suelo 3)", "descripcion":"Medidas: 740x430 mm /Peso: 4 kg/pc / Disponibles: 20 pc rígidas, 5 pc flexible / Sets: 5"},
+            {"propiedad": "Modelo M1 (muro 1)", "descripcion": "Medidas: 560x300 mm / Peso: 3 kg/pc / Precio: $500.000"},
+            {"propiedad":"Modelo S1 (suelo 1)", "descripcion":"Medidas: 800x800 mm / Peso: 4 kg/pc / Precio: $520.000"},
+            {"propiedad":"Modelo S2 (suelo 2)", "descripcion":"Medidas: 590x590  mm / Peso: 4 kg/pc / Precio: $520.000"},
+            {"propiedad":"Modelo S3 (suelo 3)", "descripcion":"Medidas: 740x430 mm /Peso: 4 kg/pc / Precio: $520.000"},
             {"propiedad":"Modelo Pisón", "descripcion":"Medidas: 25x25x130 cm / Peso: 3 kg/pc"}
         ],
         "caracteristicas": [
