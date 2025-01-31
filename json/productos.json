@@ -70,9 +70,9 @@
         "categoria": "Productos aislación",
         "menuId": "aislacion",
         "nombre": "Manguera de calefacción equipos poliuretano y poliurea ",
-        "rutaImgs": "img/productos/poliuretano",
-        "imgppal": "1.png",
-
+        "rutaImgs": "img/productos/manguera",
+        "imgppal": "1.jpg",
+        "imgs": ["2.jpg"],
         "descripcion": "Manguera especializada de 15 metros compatible con modelos de poliuretano y poliurea con fácil conexión, seguras y de alta calidad.",
         "precioOferta": "",
         "precio": "790.000"
@@ -83,7 +83,7 @@
         "nombre": "Máquina Pulverizadora de mortero",
         "rutaImgs": "img/productos/revestimiento",
         "imgppal": "1.jpg",
-        "imgs": ["2.png"],
+        "imgs": ["2.png", "3.jpg", "4.jpg"],
         "descripcion": "La Máquina Pulverizadora de Mortero es un equipo diseñado para la proyección eficiente de mortero y otros revestimientos. Es ideal para trabajos de pulverización en interiores y exteriores, logrando alto rendimiento con un acabado uniforme, duradero y de alta calidad. Su diseño compacto y fácil manejo permite su uso en diversas aplicaciones de construcción.",
         "precioOferta": "",
         "precio": "3.995.000",

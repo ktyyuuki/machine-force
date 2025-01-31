@@ -200,6 +200,11 @@ header #navbar .nav-item.dropdown .dropdown-menu .dropdown-item {
 header #navbar .nav-item.dropdown .dropdown-menu .dropdown-item:hover {
   color: #666;
 }
+header #navbar .nav-item.dropdown .dropdown-menu .dropdown-item:is(:focus,.active, :active) {
+  color:#141494;
+  background-color: #f1f1f1;
+}
+
 
 footer {
   background-color: #000;
